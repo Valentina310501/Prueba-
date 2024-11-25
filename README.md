@@ -18,40 +18,23 @@ Confirmar la instalación de
 `https://github.com/Valentina310501/Prueba-.git`
 Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el siguiente comando `(npx cypress open)`
 ## :open_file_folder: Estructura del proyecto 
-nombre-del-proyecto/
-
-├── cypress/
-│   ├── downloads/                  
-│   │
-│   ├── e2e/                        # Contiene los archivos de pruebas E2E
-│   │   ├── base/
-│   │   │   └── BasePage.js         # Clase base con funciones reutilizables
-│   │   │
-│   │   ├── page/
-│   │   │   ├── IngresoPage.js      # Page object para la página de ingreso
-│   │   │   └── RegistroPage.js     # Page object para la página de registro
-│   │   │
-│   │   └── tests/
-│   │       ├── Ingreso.cy.js       # Prueba de ingreso exitoso
-│   │       ├── IngresoFail.cy.js   # Prueba de ingreso fallido
-│   │       ├── Registro.cy.js      # Prueba de registro exitoso
-│   │       └── RegistroFail.cy.js  # Prueba de registro fallido
-│   │
-│   ├── fixtures/                   # Datos de prueba estáticos (JSON, etc.)
-│   │
-│   ├── reports/                    # Reportes generados después de ejecutar las pruebas
-│   │
-│   ├── screenshots/                # Capturas de pantalla de las pruebas fallidas
-│   │
-│   └── support/                    # Funciones de soporte para Cypress
-│
-├── node_modules/                   # Dependencias instaladas (no se modifica manualmente)
-│
-├── cypress.config.js               # Configuración global de Cypress
-│
-├── package-lock.json               # Información exacta sobre las versiones de las dependencias
-│
-└── package.json                    # Configuración del proyecto y scripts de npm
+cypress/ │ ├── downloads/
+│ ├── e2e/
+│ ├── base/ │ │ └── BasePage.js
+│ │ │ ├── page/ │ │ ├── IngresoPage.js
+│ │ └── RegistroPage.js
+│ │ │ └── tests/ │ ├── Ingreso.cy.js
+│ ├── IngresoFail.cy.js
+│ ├── Registro.cy.js
+│ └── RegistroFail.cy.js
+│ ├── fixtures/
+│ ├── reports/
+│ ├── screenshots/
+│ ├── support/
+│ ├── node_modules/
+│ ├── cypress.config.js
+│ ├── package-lock.json
+│ └── package.json
 ## :paperclip: Explicación de cada carpeta:
 
 - e2e/base/:
