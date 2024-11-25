@@ -1,0 +1,23 @@
+{
+  "name": "prueba-tecnica",
+  "version": "1.0.0",
+  "description": "cypress prueba",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:run:all:head": "cypress run --headed --browser chrome",
+    "cy:report:open": "npx open-cli ./cypress/reports/mochawesome.html",
+    "test": "prueba",
+    "cy:open": "cypress open"
+  },
+  "author": "Valentina Bernal",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.0",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3"
+  }
+}
