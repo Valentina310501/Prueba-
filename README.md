@@ -20,6 +20,7 @@ Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el s
 ## :open_file_folder: Estructura del proyecto 
 cypress/ │ ├── downloads/
 │ ├── e2e/
+
 │ ├── base/ │ │ └── BasePage.js
 │ │ │ ├── page/ │ │ ├── IngresoPage.js
 │ │ └── RegistroPage.js
