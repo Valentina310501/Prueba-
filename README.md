@@ -16,7 +16,7 @@ Confirmar la instalación de
 - ## :black_nib: Instalación
 - Se debe realizar la respetiva clonación del proyecto 
 `https://github.com/Valentina310501/Prueba-.git`
-Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el siguiente comando `(npx cypress open)`
+Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el siguiente comando en visual studio code`(npx cypress open)`
 ## :paperclip: Explicación de cada carpeta:
 
 - e2e/base/:
