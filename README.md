@@ -15,5 +15,17 @@ Veremos como se realizan las pruebas automatizadas (E2E)  para la página web de
 - **JavaScript:** Lenguaje de programación principal.
 - **XPath:** Para la selección avanzada de elementos.
 - **Visual Studio Code:** Entorno de desarrollo.
+## :bookmark: Requisitos para la ejecución y validación de la automatización 
+Confirmar la instalación de 
+- **Node.js** (v14 o superior)
+- **npm** (v6 o superior):
+- **Visual Studio Code**:
+- **Cypress**
+- ## :black_nib: Instalación
+- Se debe realizar la respetiva clonación del proyecto 
+`https://github.com/Valentina310501/Prueba-.git`
+Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el siguiente comando `(npx cypress open)`
+
+
 
 
