@@ -21,7 +21,7 @@ Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el s
 nombre-del-proyecto/
 
 ├── cypress/
-│   ├── downloads/                       # Carpeta para descargas (si alguna prueba lo requiere)
+│   ├── downloads/                  
 │   │
 │   ├── e2e/                        # Contiene los archivos de pruebas E2E
 │   │   ├── base/
