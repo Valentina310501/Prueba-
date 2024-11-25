@@ -21,9 +21,14 @@ Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el s
 cypress/ │ ├── downloads/
 │ ├── e2e/
 
-│ ├── base/ │ │ └── BasePage.js
-│ │ │ ├── page/ │ │ ├── IngresoPage.js
-│ │ └── RegistroPage.js
+│ ├── base/ │ 
+│ └── BasePage.js
+│ │ │ ├── page/ │
+│ 
+├── IngresoPage.js
+│ │
+└── 
+RegistroPage.js
 │ │ │ └── tests/ │ ├── Ingreso.cy.js
 │ ├── IngresoFail.cy.js
 │ ├── Registro.cy.js
