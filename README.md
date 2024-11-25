@@ -17,28 +17,6 @@ Confirmar la instalación de
 - Se debe realizar la respetiva clonación del proyecto 
 `https://github.com/Valentina310501/Prueba-.git`
 Al tener ya clonado el proyecto, para ejecutar el proyecto se debe ingresar el siguiente comando `(npx cypress open)`
-## :open_file_folder: Estructura del proyecto 
-📂 cypress
-├── 📂 downloads
-├── 📂 e2e
-│   ├── 📂 base
-│   │   └── BasePage.js
-│   ├── 📂 page
-│   │   ├── IngresoPage.js
-│   │   └── RegistroPage.js
-│   └── 📂 tests
-│       ├── Ingreso.cy.js
-│       ├── IngresoFail.cy.js
-│       ├── Registro.cy.js
-│       └── RegistroFail.cy.js
-├── 📂 fixtures
-├── 📂 reports
-├── 📂 screenshots
-├── 📂 support
-├── 📂 node_modules
-├── cypress.config.js
-├── package-lock.json
-└── package.json
 ## :paperclip: Explicación de cada carpeta:
 
 - e2e/base/:
